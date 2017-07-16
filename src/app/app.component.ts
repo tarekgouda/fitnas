@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterModule }   from '@angular/router';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
@@ -8,5 +10,11 @@ import { RouterModule }   from '@angular/router';
 })
 
 export class AppComponent {
+
+  constructor(private router: Router) { }
+
+
+
+
   title = 'app';
 }
