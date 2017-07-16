@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -8,5 +9,11 @@ import { Component } from '@angular/core';
 })
 
 export class StarterComponent {
+
+  constructor(private router: Router) { }
+  
+  redirect(pagename: string) {
+ 	 this.router.navigate(['/'+pagename]);
+  }
   title = 'app';
 }
