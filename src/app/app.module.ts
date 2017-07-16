@@ -1,14 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { MaterialModule} from '@angular/material';
+import { StarterComponent} from './starter.component';
 import { AppComponent } from './app.component';
+import 'hammerjs';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StarterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

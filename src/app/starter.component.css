@@ -1,0 +1,32 @@
+.container {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+.container img {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+.container h1 {
+  font-weight: lighter;
+  text-align: center;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+.starterButton{
+
+  margin: 20px 0px;
+
+  font-size: x-large;
+  width: 400px;  
+  background-color: #e64c3c;
+}
